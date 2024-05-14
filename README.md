@@ -25,3 +25,24 @@ Questo progetto è un simulatore di sonar creato utilizzando Python. Il simulato
    
 5. Clona la repository sul tuo computer o scarica la release
 6. Esegui game.py (nel caso di repository) o sonar.exe (nel caso di release
+
+
+## Come usare il sonar
+
+Appena entrati nell'applicazione si avranno due schermi, uno a sinistra che occupa metà dello schermo, chiamato Sonar Display, e uno a destra più piccolo sotto il pannello di controllo, chiamato Information Display
+
+Nella guida abbrevierò Sonar Display in SD e Information Display in ID.
+
+I due schermi saranno all'inizio spenti, e devono essere accesi tramite le due levette, chiamate Circuit Breakers.
+
+Una volta premuti i due Circuit Breakers, gli schermi si accenderanno.
+
+Sul SD inizieranno ad apparire dei puntini rossi, quelli sono i segnali rilevati dal sonar e rappresentano le navi nemiche, mentre sull'ID verrà indicato che nessun segnale è selezionato.
+
+Sul pannello di controllo sono presenti 4 pulsanti, Next, Deselect, Target, Fire.
+
+- Next: Con questo pulsante sarà possibile selezionare una nave. Sul SD apparirà un quadrato blu che circonda il segnale selezionato, mentre sull'ID appariranno informazioni base del bersagio come direzione, velocità e coordinate, sopra alla scritta "SELECTED"
+- Deselect: Con questo pulsante si può deselezionare una nave, il quadrato blu nel SD verrà rimosso e non verranno più mostrate le informazioni nell'ID
+- Target: Bersaglia la nave selezionata, per fare effetto una nave deve essere selezionata tramite next precedentemente. Sulla nave selezionata apparirà un simbolo del bersaglio e nell'ID il testo selected diventerà targeted
+- Fire: Dopo aver bersagliato una nave, con questo comando verrà lanciato un Torpedo, che si direzionerà in automatico verso il bersaglio e lo eliminerà.
+
