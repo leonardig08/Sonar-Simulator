@@ -31,18 +31,36 @@ Questo progetto è un simulatore di sonar creato utilizzando Python. Il simulato
 
 Appena entrati nell'applicazione si avranno due schermi, uno a sinistra che occupa metà dello schermo, chiamato Sonar Display, e uno a destra più piccolo sotto il pannello di controllo, chiamato Information Display
 
+<img src="https://github.com/leonardig08/Sonar-Simulator/blob/master/imgs/1.png" alt="Immagine" width="600"/>
+
 Nella guida abbrevierò Sonar Display in SD e Information Display in ID.
 
 I due schermi saranno all'inizio spenti, e devono essere accesi tramite le due levette, chiamate Circuit Breakers.
+
+<img src="https://github.com/leonardig08/Sonar-Simulator/blob/master/imgs/2.png" alt="Immagine" width="600"/>
 
 Una volta premuti i due Circuit Breakers, gli schermi si accenderanno.
 
 Sul SD inizieranno ad apparire dei puntini rossi, quelli sono i segnali rilevati dal sonar e rappresentano le navi nemiche, mentre sull'ID verrà indicato che nessun segnale è selezionato.
 
+<img src="https://github.com/leonardig08/Sonar-Simulator/blob/master/imgs/5.png" alt="Immagine" width="600"/>
+
 Sul pannello di controllo sono presenti 4 pulsanti, Next, Deselect, Target, Fire.
 
+<img src="https://github.com/leonardig08/Sonar-Simulator/blob/master/imgs/3.png" alt="Immagine" width="400"/>
+
 - Next: Con questo pulsante sarà possibile selezionare una nave. Sul SD apparirà un quadrato blu che circonda il segnale selezionato, mentre sull'ID appariranno informazioni base del bersagio come direzione, velocità e coordinate, sopra alla scritta "SELECTED"
+
+<img src="https://github.com/leonardig08/Sonar-Simulator/blob/master/imgs/6.png" alt="Immagine" width="600"/>
+
 - Deselect: Con questo pulsante si può deselezionare una nave, il quadrato blu nel SD verrà rimosso e non verranno più mostrate le informazioni nell'ID
+
+<img src="https://github.com/leonardig08/Sonar-Simulator/blob/master/imgs/8.png" alt="Immagine" width="600"/>
+  
 - Target: Bersaglia la nave selezionata, per fare effetto una nave deve essere selezionata tramite next precedentemente. Sulla nave selezionata apparirà un simbolo del bersaglio e nell'ID il testo selected diventerà targeted
+
+<img src="https://github.com/leonardig08/Sonar-Simulator/blob/master/imgs/7.png" alt="Immagine" width="600"/>
+
 - Fire: Dopo aver bersagliato una nave, con questo comando verrà lanciato un Torpedo, che si direzionerà in automatico verso il bersaglio e lo eliminerà.
 
+<img src="https://github.com/leonardig08/Sonar-Simulator/blob/master/imgs/9.png" alt="Immagine" width="600"/>
