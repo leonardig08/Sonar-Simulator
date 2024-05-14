@@ -18,7 +18,6 @@ Questo progetto è un simulatore di sonar creato utilizzando Python. Il simulato
 ## Installazione
 
 1. Assicurati di avere Python 3.x installato sul tuo sistema.
-2. Installa i requisiti utilizzando il seguente comando:\n
-   pip install pygame pygame-widgets
+2. Installa i requisiti utilizzando il seguente comando:\npip install pygame pygame-widgets
 3. Clona la repository sul tuo computer o scarica la release
 4. Esegui game.py (nel caso di repository) o sonar.exe (nel caso di release
