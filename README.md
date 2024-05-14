@@ -13,7 +13,7 @@ Questo progetto è un simulatore di sonar creato utilizzando Python. Il simulato
 ## Requisiti
 
 - Python 3.x
-- Librerie Python: [pygame](https://www.pygame.org/) [pygame-widgets]([https://www.pygame.org/](https://pygamewidgets.readthedocs.io/en/stable/))
+- Librerie Python: [pygame](https://www.pygame.org/) [pygame-widgets](https://pygamewidgets.readthedocs.io/en/stable/)
 
 ## Installazione
 
